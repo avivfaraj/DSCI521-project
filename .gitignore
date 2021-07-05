@@ -12,3 +12,5 @@
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
+
+**/.ipynb_checkpoints
