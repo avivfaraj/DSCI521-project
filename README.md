@@ -8,7 +8,8 @@
  * [Abstract](#abstract-)
  * [Python Packages](#python-packages-)
  * [Setup and running the code](#setup-and-running-the-code)
-
+ * [Acknowledgements](#acknowledgements)
+ 
 
 ---
 
@@ -46,10 +47,30 @@ from sklearn.pipeline import Pipeline
 ---
 
 ## Setup and running the code:
-Open the jupyter notebook and ensure to run the first cell containing the git clone of the repo, if that cell is unavailable clone the repo using the following command:
-	git clone https://github.com/avivfaraj/DSCI521-project.git
-After cloning the repo, run each cell in one at a time in the order that they are presented. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All
+Open the jupyter notebook and ensure to run the first cell containing the git clone of the repo, if that cell is unavailable clone the repo using the following command:<br>
+In jupyter notebook:<br>
+	`!git clone https://github.com/avivfaraj/DSCI521-project.git`
+	
+Or in the terminal:<br>
+	`git clone https://github.com/avivfaraj/DSCI521-project.git`
+	
+After cloning the repo, run each cell in one at a time in the order that they are presented. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.<br>
+
+The first two sections are packages and functions which are required for the code to run. Make sure to run those two sections before running the program. 
 
 ---
 
+## Acknowledgements
+
+[UCI Heart Disease Data Set](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+
+**Creators:**
+
+Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.
+University Hospital, Zurich, Switzerland: William Steinbrunn, M.D.
+University Hospital, Basel, Switzerland: Matthias Pfisterer, M.D.
+V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D.
+
+**Donor:**
+David W. Aha (aha '@' ics.uci.edu) (714) 856-8779
 
