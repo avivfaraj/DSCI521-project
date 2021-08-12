@@ -3,10 +3,14 @@
 ### by: Aviv Farag, Hope Birdsong, Joshua Geller and Willie Hood
 
 ---
+
 ## Table of Contents
  * [Abstract](#abstract-)
  * [Python Packages](#python-packages-)
  * [Setup and running the code](#setup-and-running-the-code)
+
+
+---
 
 ## Abstract: 
 This research presents a data analytics approach and breakdown of the dataset containing heart disease patient symptoms. 
@@ -23,7 +27,13 @@ We were able to leverage tensorflow and other python machine learning packages t
 1. matplotlib.pyplot
 1. spicy 
 
+---
+
 ## Setup and running the code:
 Open the jupyter notebook and ensure to run the first cell containing the git clone of the repo, if that cell is unavailable clone the repo using the following command:
 	git clone https://github.com/avivfaraj/DSCI521-project.git
 After cloning the repo, run each cell in one at a time in the order that they are presented. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All
+
+---
+
+
