@@ -7,6 +7,7 @@
 ## Table of Contents
  * [Abstract](#abstract-)
  * [Python Packages](#python-packages-)
+ * [Functions](#functions)
  * [Setup and running the code](#setup-and-running-the-code)
  * [Acknowledgements](#acknowledgements)
  
@@ -43,6 +44,21 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline 
 ```
+
+---
+## Functions
+1. **outliers(data,column ,outliers)** <br>
+removes outliers from a specific column in data. The outliers variable is a list for example [25,75] to remove any data outside this range. 
+
+1. **clean_data(data)** <br>
+Remove NaNs in data and replace values 1,2,3,4 in the "target" column with 1 (heart disease). 
+
+1. **discretize(data, column, threshold)** <br>
+discrectize a specific column in pandas dataframe (data) according to a threshold value (double).
+
+1. **max_HR_percent(data, percent = 0.85)** <br>
+Creates a new column in pandas dataframe (data). This new column contains 1 for patients that didn't reach at least 85% of their target heart rate and 0 otherwise. Target heart rate was calculated by the formula:
+Target Heart Rate = 220 - age
 
 ---
 
