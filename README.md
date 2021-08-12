@@ -3,8 +3,9 @@
 ### by: Aviv Farag, Hope Birdsong, Joshua Geller and Willie Hood
 
 ---
- * [Abstract:](#abstract-)
- * [Python Packages:](#python-packages-)
+## Table of Contents
+ * [Abstract](#abstract-)
+ * [Python Packages](#python-packages-)
 
 ## Abstract: 
 This research presents a data analytics approach and breakdown of the dataset containing heart disease patient symptoms. 
