@@ -22,10 +22,26 @@ We were able to leverage tensorflow and other python machine learning packages t
 ---
 
 ## Python Packages:
-1. pandas
-1. numpy
-1. matplotlib.pyplot
-1. spicy 
+1. pandas <br>
+ `import pandas as pd`
+1. numpy <br>
+`import numpy as np`
+1. matplotlib.pyplot <br>
+`import matplotlib.pyplot as plt`
+
+1. sklearn.metric:
+	1. f1_score
+	2. precision_score
+	3. recall_score
+1. sklearn.linear_model: LogisticRegression
+1. sklearn.model_selection: train_test_split
+1. sklearn.pipline: Pipline <br>
+```
+from sklearn.metrics import f1_score, precision_score, recall_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline 
+```
 
 ---
 
