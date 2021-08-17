@@ -5,8 +5,8 @@
 ---
 
 ## Table of Contents
- * [Abstract](#abstract-)
- * [Python Packages](#python-packages-)
+ * [Abstract](#abstract)
+ * [Python Packages](#python-packages)
  * [Functions](#functions)
  * [Setup and running the code](#setup-and-running-the-code)
  * [Acknowledgements](#acknowledgements)
