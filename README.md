@@ -92,7 +92,7 @@ Split data to training and test data. The size of test data is defined according
 ---
 
 ## Setup and running the code:
-clone the repo using the following command in terminal:<br>
+Clone the repo using the following command in terminal:<br>
 	`git clone https://github.com/avivfaraj/DSCI521-project.git`
 	
 After cloning the repo, open hd_analysis.ipynb and run each cell one at a time in the order that they are presented. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.<br>
